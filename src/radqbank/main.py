@@ -14,3 +14,4 @@ st.sidebar.page_link("pages/review.py",   label="📊 Review")
 
 st.header("Dashboard (MVP)")
 st.write("Welcome!  Your progress will appear here once Phase 2 lands.")
+
