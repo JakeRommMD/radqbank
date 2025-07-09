@@ -50,18 +50,6 @@ difficulty	str / int	–	Your scale: "easy" / "moderate" / "hard" or 1-5.
 tags	CSV string	–	Extra keywords, e.g. "PET, oncology, SUV".
 image_filename	str	–	File located under media/; leave blank if not used.
 
-Minimal example row
-csv
-Copy
-Edit
-question_id,stem_md,options_json,correct_answer,explanation_md,primary_topic,image_filename
-Q001,"A 65-year-old man with dyspnea undergoes a V/Q scan. The perfusion images show…",\
-    ["Pulmonary embolism","COPD","Pulmonary hypertension","Normal study"],\
-    "Pulmonary embolism",\
-    "**PE** causes segmental perfusion defects with preserved ventilation.",\
-    "Nuclear Medicine","vq_pe_example.png"
-(Note the back-slash line continuations above are just for readability; real CSV has one physical line.)
-
 4 Image requirements
 Put files in media/ (or a subfolder).
 

@@ -1,0 +1,1 @@
+toml [project] name = "radqbank" version = "0.0.1" dependencies = ["streamlit", "pandas", "duckdb", "pyyaml"] [tool.setuptools.packages.find] where = ["src"]
