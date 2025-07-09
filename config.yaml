@@ -1,0 +1,7 @@
+app_title: "RadQBank"
+csv_path: "data/questions_master.csv"
+media_dir: "media"
+points:
+  correct: 10
+  streak_bonus: 5
+level_thresholds: [0, 250, 600, 1000, 1500]
