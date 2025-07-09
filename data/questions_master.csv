@@ -1,0 +1,2 @@
+question_id,stem_md,options_json,correct_answer,explanation_md,primary_topic,secondary_topic,difficulty,image_filename
+Q001,A 65-year-old man with dyspnea undergoes a V/Q scan. The perfusion images show…,"[""Pulmonary embolism"",""COPD"",""Pulmonary hypertension"",""Normal study""]",Pulmonary embolism,**PE** causes segmental perfusion defects with preserved ventilation.,Nuclear Medicine,,,
