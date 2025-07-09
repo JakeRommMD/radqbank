@@ -1,5 +1,5 @@
 # radqbank/xp.py
-from .state import get_cfg
+from radqbank.xp import level_for_xp
 
 def xp_for_streak(streak):
     cfg = get_cfg()

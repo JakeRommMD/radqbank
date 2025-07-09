@@ -3,3 +3,7 @@
 __pycache__/
 *.pyc
 .env
+data/**/*.parquet
+*.log
+.streamlit/cache/
+media/          # ignore everything in the media folder (and its sub-folders)

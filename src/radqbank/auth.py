@@ -1,6 +1,6 @@
 # radqbank/auth.py
 import streamlit as st
-from supabase import create_client
+from radqbank.auth import login
 
 def get_supabase():
     if "supabase" not in st.session_state:

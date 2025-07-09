@@ -1,6 +1,6 @@
 # radqbank/state.py
 import yaml, pathlib, streamlit as st
-ROOT = pathlib.Path(__file__).parent.parent
+ROOT = pathlib.Path(__file__).resolve().parents[2] # repo root (.. / .. /)
 
 def get_cfg():
     if "cfg" not in st.session_state:
